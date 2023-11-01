@@ -9,7 +9,7 @@
  * @size: amount of array members
  * Return: pointer to head of new BST constructed from array
  */
-bst_t *array_to_bst(int *array, size_t size)
+avl_t *array_to_avl(int *array, size_t size)
 {
 	bst_t *tree = NULL;
 	size_t i, j;
